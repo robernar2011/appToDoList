@@ -47,7 +47,7 @@
 								<h4>Nova Tarefa</h4>
 								<hr />
 
-								<form method="post" action="tarefa_controller.php">
+								<form method="post" action="tarefa_controller.php?acao=inserir">
 									<div class="form-group">
 										<label>Descrição da Tarefa:</label>
 										<input type="text" class="form-control" name="tarefa" placeholder="Exemplo: Lavar o Carro">
